@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "760910569586",
+    "project_id": "squadron-ba9f9",
+    "storage_bucket": "squadron-ba9f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760910569586:android:96d5115323b33a583c62eb",
+        "android_client_info": {
+          "package_name": "com.example.squadron"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760910569586-d62tqclujuvgp3khqau1dfvgojt8thbo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNw11d3_VxdirEIluWvS_VMEKupRfqe8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760910569586-d62tqclujuvgp3khqau1dfvgojt8thbo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
