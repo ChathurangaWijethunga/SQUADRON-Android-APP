@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/admin_back"
-    tools:context=".CategoryAddActivity">
+    tools:context=".SubcategoryAddActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -36,14 +36,14 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="1dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="ADD CATEGORY"
+            android:text="ADD SUBCATEGORY"
             android:textColor="@color/white"
             android:textSize="24sp" />
 
     </RelativeLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/categoryTil"
+        android:id="@+id/categoryTil1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:hintEnabled="false"
@@ -52,7 +52,7 @@
         android:layout_marginTop="225dp" >
 
         <EditText
-            android:id="@+id/et_category"
+            android:id="@+id/et_mainCategory"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/shape_edittext"
@@ -63,12 +63,34 @@
             android:padding="10dp"
             android:textColor="@color/black"
             android:textColorHint="@color/Gray01" />
+    </com.google.android.material.textfield.TextInputLayout>
 
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/categoryTil2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintEnabled="false"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="295dp" >
+
+        <EditText
+            android:id="@+id/et_Subcategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_edittext"
+            android:drawableStart="@drawable/ic_category_gray"
+            android:drawablePadding="10dp"
+            android:hint="Subcategory Title"
+            android:inputType="textPersonName|textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/Gray01" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <!--Add category button-->
     <Button
-        android:id="@+id/btn_submitCategory"
+        android:id="@+id/btn_submitSubcategory"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -76,6 +98,6 @@
         android:layout_marginTop="60dp"
         android:background="@drawable/shape_button"
         android:text="SUBMIT"
-        android:layout_below="@id/categoryTil" />
+        android:layout_below="@id/categoryTil2" />
 
 </RelativeLayout>
